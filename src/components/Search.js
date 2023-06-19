@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Search({ setBooksSearchCriteria }) {
+export default function Search({ setSearchCriteria }) {
   return (
     <div>
-      <input type="text" onChange={setBooksSearchCriteria} />
+      <input type="text" onChange={setSearchCriteria} />
     </div>
   );
 }
